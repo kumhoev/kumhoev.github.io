@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>금호승강기(주) | 승강기 설치 · 유지보수 전문</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    rel="stylesheet"
+  />
+
+  <style>
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+:root {
+    --main-color: #0d2c54;
+  }
+  .bg-main {
+    background-color: var(--main-color) !important;
+  }
+  .text-main {
+    color: var(--main-color);
+  }
+    .hero {
+      background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+        url('https://images.unsplash.com/photo-1581092160613-b7fdbdbd8e41');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      padding: 120px 0;
+    }
+    .section-padding {
+      padding: 80px 0;
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      padding: 30px 0;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- 네비게이션 -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">금호승강기(주)</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">회사소개</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">사업영역</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">실적</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">문의</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- 히어로 -->
+<section class="hero text-center">
+  <div class="container">
+    <h1 class="fw-bold mb-3">안전과 기술로 신뢰받는 기업 금호승강기(주)</h1>
+    <p class="lead mb-4">
+      승강기(엘리베이터, 에스컬레이터 & 무빙워크) 주차시스템 유지관리 · 보수 · 승강기 부품 설치  및 교체공사 전문기업
+    </p>
+    <a href="#contact" class="btn btn-primary btn-lg">
+      상담 문의하기
+    </a>
+  </div>
+</section>
+
+<!-- 서비스 -->
+<section class="section-padding">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-5">사업영역</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <i class="fa-solid fa-elevator fa-3x mb-3 text-primary"></i>
+            <h5 class="card-title">승강기 설치</h5>
+            <p class="card-text">
+              아파트 · 빌딩 · 공공시설 맞춤형 설치
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <i class="fa-solid fa-screwdriver-wrench fa-3x mb-3 text-primary"></i>
+            <h5 class="card-title">유지보수</h5>
+            <p class="card-text">
+              정기점검 · 긴급출동 · 법정검사 대응
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <i class="fa-solid fa-rotate fa-3x mb-3 text-primary"></i>
+            <h5 class="card-title">리모델링</h5>
+            <p class="card-text">
+              노후 승강기 교체 및 성능 개선
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 신뢰 지표 -->
+<section class="bg-light section-padding">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-4">
+        <h3 class="fw-bold">9 년 +</h3>
+        <p>년 업력</p>
+      </div>
+      <div class="col-md-4">
+        <h3 class="fw-bold">1,045 대 +</h3>
+        <p>유지보수 대수</p>
+      </div>
+      <div class="col-md-4">
+        <h3 class="fw-bold">24시간</h3>
+        <p>긴급 대응</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 문의 -->
+<section id="contact" class="section-padding">
+  <div class="container">
+    <h2 class="fw-bold text-center mb-4">문의하기</h2>
+    <p class="text-center mb-5">
+      승강기 설치 및 유지보수 상담은 언제든지 연락주세요.
+    </p>
+    <div class="text-center">
+      <p class="fs-5">
+        📞 대표전화 : <strong> 1899-5641 / 062-419-5585 </strong>
+      </p>
+      <p>
+        📍 주소 : 광주광역시 남구 서문대로 402번길 44, 1층
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- 푸터 -->
+<footer class="text-center">
+  <div class="container">
+    <p class="mb-1">
+      금호승강기(주) | 대표 : 홍길동 | 사업자등록번호 : 884-87-00734 
+    </p>
+    <p class="mb-0">
+      © 2026 Kumho Elevator. All Rights Reserved.
+    </p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+</script>
+
+</body>
+</html>
